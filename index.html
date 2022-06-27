@@ -1,0 +1,122 @@
+<?php
+
+?>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title> Accueil </title>
+</head>
+
+    <body>
+
+        <header>
+
+        <div id="info">
+            <img src="profil.jpg" id="photopro">
+            <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Marseille, France </p>
+        </div>
+
+            <ul>
+                <li> <a href="#accueil"> Accueil </a> </li>
+                <li> <a href="#portfolio"> Portfolio </a> </li>
+                <li> <a href="#CV"> CV </a> </li>
+                <li> <a href="#contact"> Contact </a> </li>
+            </ul>
+
+            <div class="logo">
+                <a href="https://www.linkedin.com/in/romain-michaud-bonnet-549091167/"><img src="link.png"></a>
+            </div>
+
+        </header>
+
+            <main>
+
+                <article id="accueil" class="page">
+                    <div class="container">
+                        <span class="text1"> <p>Romain Michaud-Bonnet,</br> étudiant en développement web.</p> </span>
+                        <span class="text2"> <a href="#contact"><input type="button" value="Me contacter"></a> </span>
+                    </div>
+                </article>
+
+                <article id="portfolio" class="page">
+
+                    <p> coucou </p>
+
+                </article>
+
+                <article id="CV" class="page">
+
+                    <div class="box">
+                        <div class="card">
+                            <div class="imgBx"></div>
+                            <div class="details">
+                                <a href="CV.pdf"><input type="button" value="consulter le cv"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article id="contact" class="page">
+
+                <h2> Contactez-moi : </h2>
+
+                    <form id="formco">
+
+                        <label for="nom"> Nom / Société : </label>
+                        <input type="text" value="" placeholder="Entrez votre nom ou celui de votre société" name="nom">
+
+                        <label for="mail"> Adresse mail : </label>
+                        <input type="email" value="" placeholder="Entrez votre adresse mail" name="mail">
+
+                        <label for="message"> Message : </label>
+                        <textarea rows="9" value="" name="message" placeholder="Entrez votre message"> </textarea>
+
+                        <input type="submit" name="formcontact" value="Valider" id="btnco">
+
+                    </form>
+
+                <section class="infoco">
+		
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h4>Adresse</h4>
+                            <h3>13 Boulevard Lord Duveen, 13008</h3>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                       <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <h4>Telephone</h4>
+                            <h3>+33 6 52 59 99 24</h3>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h4>Email</h4>
+                            <h3>romainmichaudbonnet@gmail.com</h3>
+                        </div>
+                    </div>
+        
+                </section>
+
+                </article>
+
+            </main>
+
+        <footer>
+
+        </footer>
+
+    </body>
+
+</html>
